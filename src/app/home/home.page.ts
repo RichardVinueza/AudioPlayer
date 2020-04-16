@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Platform } from '@ionic/angular';
+import { Media } from '@ionic-native/media/ngx';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +9,9 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor(
+    public platform: Platform,
+    private media: Media
+  ) {}
 
 }
