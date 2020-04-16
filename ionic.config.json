@@ -1,5 +1,7 @@
 {
   "name": "ionic-4-music",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
